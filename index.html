@@ -41,12 +41,12 @@
       <p>DigitalTeal is a small team consisting of 4 people, with a variety of focuses, including gaming. Currently, we are making a new and open-source game called JumpBound, and plan to announce more products in the future.</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Info</a>
+          <a class="nav-link active" href="#info" onclick="document.getElementById('info').style.display = 'block'; document.getElementById('jumpbound').style.display = 'none'; this.className = 'nav-link active';">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#jumpbound" onclick="document.getElementById('jumpbound').style.display = 'block'; document.getElementById('info').style.display = 'none'; this.className = 'nav-link active';">Jumpbound</a>
         </li>
         <!--
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
@@ -57,10 +57,11 @@
       </ul>
       <hr class="d-sm-none">
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-8" id="info" style="display: block;">
       <h2>About us</h2>
       DigitalTeal is a small team consisting of 4 people, with a variety of focuses, including gaming. Currently, we are making a new and open-source game called JumpBound, and plan to announce more products in the future.
-      <h3>JumpBound</h3>
+    </div>
+    <div class="col-sm-8" id="jumpbound" style="display: none;">
       JumpBound is a realistic 3D platformer with a unique storyline and an air of mystery and adventure. JumpBound allows you to customize your character, collect power-ups, battle enemies, and more!
       <br/><br/>
       The game will be released around April-May 2021.
