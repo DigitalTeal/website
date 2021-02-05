@@ -41,10 +41,10 @@
       <p>DigitalTeal is a small team consisting of 4 people, focusing on various types of software. Currently, we are making a new and open-source game called JumpBound, and plan to announce more products in the future.</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="#info" onclick="document.getElementById('info').style.display = 'block'; document.getElementById('jumpbound').style.display = 'none'; this.className = 'nav-link active';">Info</a>
+          <a class="nav-link active" href="#info" onclick="document.getElementById('info').style.display = 'block'; document.getElementById('jumpbound').style.display = 'none'; this.className = 'nav-link active'; document.querySelectorAll('.nav-pills > .nav-item > .nav-link')[1].className = 'nav-link';">Info</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#jumpbound" onclick="document.getElementById('jumpbound').style.display = 'block'; document.getElementById('info').style.display = 'none'; this.className = 'nav-link active';">Jumpbound</a>
+          <a class="nav-link" href="#jumpbound" onclick="document.getElementById('jumpbound').style.display = 'block'; document.getElementById('info').style.display = 'none'; this.className = 'nav-link active'; document.querySelectorAll('.nav-pills > .nav-item > .nav-link')[0].className = 'nav-link';">Jumpbound</a>
         </li>
         <!--
         <li class="nav-item">
