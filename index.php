@@ -1,5 +1,5 @@
 <?php
-require("vars.php");
+require ("vars.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +31,7 @@ require("vars.php");
         </script>
     </head>
     <body>
-        <?php include("navbar.html"); ?>
+        <?php include ("navbar.html"); ?>
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -67,8 +67,8 @@ require("vars.php");
                 <div class="col-sm-8 tabcontent" id="info" style="display: block;">
                     <h2>General information</h2>
                     <?php
-            echo $digitalTealConfig["about"];
-      ?>
+echo $digitalTealConfig["about"];
+?>
                     <br /><br/>
                     We plan to release a game around April-May 2021 called JumpBound, then develop multiple other apps and games, for both mobile and desktop. Click the "JumpBound" link for more information.
                 </div>
@@ -79,7 +79,7 @@ require("vars.php");
             </div>
         </div>
         
-        <?php include("footer.html"); ?>
+        <?php include ("footer.html"); ?>
 
         <script>
             // code based on https://w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs
