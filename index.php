@@ -70,7 +70,7 @@ require("vars.php");
             echo $digitalTealConfig["about"];
       ?>
                     <br /><br/>
-                    We plan to release a game around April-May 2021 called JumpBound, then developer multiple other apps and games, for both mobile and desktop. Click the "JumpBound" link for more information.
+                    We plan to release a game around April-May 2021 called JumpBound, then develop multiple other apps and games, for both mobile and desktop. Click the "JumpBound" link for more information.
                 </div>
                 <div class="col-sm-8 tabcontent" id="jumpbound" style="display: none;">
                     <h2>JumpBound</h2>
