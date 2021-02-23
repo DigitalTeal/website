@@ -59,7 +59,7 @@ require ("vars.php");
                             <a class="nav-link" href="#info" onclick="openTab(event, 'info');" id="defaultOpen">Info</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#jumpbound" onclick="openTab(event, 'jumpbound');">JumpBound</a>
+                            <a class="nav-link" href="#jumpbound" onclick="openTab(event, 'jumpbound');" id="jumpboundOpen">JumpBound</a>
                         </li>
                     </ul>
                     <hr class="d-sm-none" />
@@ -98,8 +98,12 @@ require ("vars.php");
                 document.getElementById(tabName).style.display = "block";
                 evt.currentTarget.className += " active";
             }
-
-            document.getElementById("defaultOpen").click();
+            
+            if(window.location.href.includes("#jumpbound")) {
+                document.getElementById("defaultOpen").click();
+            } else {
+                document.getElementById("jumpboundOpen").click();
+            }
         </script>
     </body>
 </html>
