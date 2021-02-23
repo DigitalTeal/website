@@ -1,3 +1,5 @@
 User-Agent: *
 Disallow: /assets/
 Disallow: /sitemap.txt
+Disallow: /footer.html
+Disallow: /vars.php
