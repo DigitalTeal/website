@@ -99,10 +99,10 @@ require ("vars.php");
                 evt.currentTarget.className += " active";
             }
             
-            if(window.location.href.includes("#jumpbound")) {
-                document.getElementById("defaultOpen").click();
-            } else {
+            if(window.location.href.endsWith("#jumpbound")) {
                 document.getElementById("jumpboundOpen").click();
+            } else {
+                document.getElementById("defaultOpen").click();
             }
         </script>
     </body>
