@@ -4,14 +4,19 @@ require("vars.php");
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DigitalTeal</title>
+        <title>DigitalTeal - Home page</title>
+        <meta name="description" content="DigitalTeal is a small coding group consisting of just a few people, focusing on various types of software, including apps and games for mobile and desktop." />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="canonical" href="https://www.digitalteal.com/" />
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EJM0MNFCZ5"></script>
@@ -27,7 +32,7 @@ require("vars.php");
     </head>
     <body>
         <?php include("navbar.html"); ?>
-        
+
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -47,7 +52,7 @@ require("vars.php");
         <div class="container" style="margin-top: 30px;">
             <div class="row">
                 <div class="col-sm-4">
-                    <h2><?php echo $digitalTealConfig["aboutHeader"]; ?></h2>
+                    <h1><?php echo $digitalTealConfig["aboutHeader"]; ?></h1>
                     <p><?php echo $digitalTealConfig["about"]; ?></p>
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item">
@@ -56,14 +61,6 @@ require("vars.php");
                         <li class="nav-item">
                             <a class="nav-link" href="#jumpbound" onclick="openTab(event, 'jumpbound');">JumpBound</a>
                         </li>
-                        <!--
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-        -->
                     </ul>
                     <hr class="d-sm-none" />
                 </div>
@@ -72,7 +69,7 @@ require("vars.php");
                     <?php
             echo $digitalTealConfig["about"];
       ?>
-                    <br />
+                    <br /><br/>
                     We plan to release a game around April-May 2021 called JumpBound, then developer multiple other apps and games, for both mobile and desktop. Click the "JumpBound" link for more information.
                 </div>
                 <div class="col-sm-8 tabcontent" id="jumpbound" style="display: none;">
@@ -81,10 +78,8 @@ require("vars.php");
                 </div>
             </div>
         </div>
-
-        <div class="jumbotron text-center" style="margin-bottom: 0;">
-            <p>Copyright 2021, licensed under Mozilla Publice License 2.0, source code avalilable at <a href="https://github.com/DigitalTeal/website">this GitHub repository</a>.</p>
-        </div>
+        
+        <?php include("footer.html"); ?>
 
         <script>
             // code based on https://w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs

@@ -7,11 +7,17 @@ require("vars.php");
         <title>DigitalTeal - Team</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="canonical" href="https://www.digitalteal.com/team" />
+        <meta name="description" content="DigitalTeal is a small coding group consisting of just a few people, focusing on various types of software, including apps and games for mobile and desktop." />
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
+
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag() {
@@ -44,8 +50,8 @@ require("vars.php");
         <div class="container" style="margin-top: 30px;">
             <div class="row">
                 <div class="col-sm-4">
-                    <h2><?php echo $digitalTealConfig["aboutHeader"]; ?></h2>
-                    <p><?php echo $digitalTealConfig["about"]; ?></p>
+                    <h1>DigitalTeal Team</h1>
+                    <p>This page contains a list of DigitalTeal's group members.</p>
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item">
                             <a class="nav-link" href="#leadership" id="defaultOpen" onclick="openTab(event, 'leadership');">Leadership team</a>
@@ -57,7 +63,7 @@ require("vars.php");
                     <hr class="d-sm-none" />
                 </div>
 
-                <div class="tabcontent col-sm-8" id="leadership" style="display: block;">
+                <div class="tabcontent col-sm-8" id="leadership" style="display: flex;">
                     <div class="card">
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Screenshot-9" border="0" style="width: 50%;" />
                         <h1>NameIsA</h1>
@@ -71,7 +77,7 @@ require("vars.php");
                         <p class="title">Co-Owner, Game Co-Producer</p>
                     </div>
                 </div>
-                
+
                 <div class="tabcontent col-sm-8" id="design" style="display: none;">
                     <div class="card">
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Screenshot-9" border="0" style="width: 50%;" />
@@ -80,9 +86,7 @@ require("vars.php");
                     </div>
                     <br />
                     <div class="card">
-                        <img src="https://i.ibb.co/xm44wr8/Screenshot-9.png" alt="Screenshot-9" border="0" style="width: 50%;" />
-                        <h1>LunifiedStorms</h1>
-                        <p class="title">Game Story Design</p>
+                        Story design has been a project done by all members of the DigitalTeal team.
                     </div>
                 </div>
 
@@ -101,8 +105,8 @@ require("vars.php");
                     </div>
                     <br />
                     <div class="card">
-                        <img src="https://i.ibb.co/xm44wr8/Screenshot-9.png" alt="Screenshot-9" border="0" style="width: 50%;" />
-                        <h1>LunifiedStorms</h1>
+                        <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Screenshot-9" border="0" style="width: 50%;" />
+                        <h1>NameIsA</h1>
                         <p class="title">Game Concept Artist</p>
                     </div>
                     <br />
@@ -116,9 +120,8 @@ require("vars.php");
             </div>
         </div>
 
-        <div class="jumbotron text-center" style="margin-bottom: 0;">
-            <p>Copyright 2021, licensed under Mozilla Publice License 2.0, source code avalilable at <a href="https://github.com/DigitalTeal/website">this GitHub repository</a>.</p>
-        </div>
+        <?php include("footer.html"); ?>
+
         <script>
             // code based on https://w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs
             function openTab(evt, tabName) {
@@ -135,7 +138,7 @@ require("vars.php");
                     tablinks[i].className = tablinks[i].className.replace(" active", "");
                 }
 
-                document.getElementById(tabName).style.display = "block";
+                document.getElementById(tabName).style.display = "flex";
                 evt.currentTarget.className += " active";
             }
 
