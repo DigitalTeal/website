@@ -55,6 +55,9 @@ require ("vars.php");
         <!-- End Facebook Pixel Code -->
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="oG4OyHff"></script>
+
         <?php include ("navbar.html"); ?>
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -107,6 +110,7 @@ require ("vars.php");
                     This section displays updates from social media accounts of DigitalTeal.
                     <h4>Twitter</h4>
                     <a class="twitter-timeline" data-width="300" data-height="300" data-dnt="true" href="https://twitter.com/digital_teal?ref_src=twsrc%5Etfw">Tweets by digital_teal</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <div class="fb-page" data-href="https://www.facebook.com/digitalteal" data-tabs="timeline" data-width="300" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/digitalteal" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/digitalteal">DigitalTeal</a></blockquote></div>
                 </div>
             </div>
         </div>
