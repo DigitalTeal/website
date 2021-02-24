@@ -61,6 +61,9 @@ require ("vars.php");
                         <li class="nav-item">
                             <a class="nav-link" href="#jumpbound" onclick="openTab(event, 'jumpbound');" id="jumpboundOpen">JumpBound</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#updates" onclick="openTab(event, 'updates');">Latest updates</a>
+                        </li>
                     </ul>
                     <hr class="d-sm-none" />
                 </div>
@@ -72,7 +75,13 @@ require ("vars.php");
                 </div>
                 <div class="col-sm-8 tabcontent" id="jumpbound" style="display: none;">
                     <h2>JumpBound</h2>
-                    Currently, we are working on a game called JumpBound. The game will be released around April-May 2021, and a trailer should be released near the end of Febuary.
+                    Currently, we are working on a game called JumpBound. The game will be released around April-May 2021, and a trailer should be released near the start of March.
+                </div>
+                <div class="col-sm-8 tabcontent" id="updates" style="display: none;">
+                    <h2>Latest updates</h2>
+                    <h3>Social media</h3>
+                    <h4>Twitter</h4>
+                    <a class="twitter-timeline" data-width="300" data-height="300" data-dnt="true" href="https://twitter.com/digital_teal?ref_src=twsrc%5Etfw">Tweets by digital_teal</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
         </div>
