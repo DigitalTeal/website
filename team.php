@@ -1,5 +1,5 @@
 <?php
-require("vars.php");
+require("templates/vars.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
