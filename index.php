@@ -68,7 +68,7 @@ require ("assets/templates/vars.php");
                 </div>
                 <div class="col-sm-8 tabcontent" id="jumpbound" style="display: none;">
                     <h2>JumpBound</h2>
-                    JumpBound is a 3D role-playing game designed around a theme of mystery and adventure. The player is trapped inside a prison-like cell, cursed by an evil overlord so that you are unable to make large jumps and your entire memory has been erased.
+                    JumpBound is a 3D role-playing game designed around a theme of mystery and adventure. The player is trapped inside a prison-like cell, cursed by an evil overlord causing the player to be unable to make large jumps with their entire memory erased.
                     <br/><br/>
                     Upon further investigation, the outside world believes that the overlord was not succesful in designing a fool-proof prison or curse, but outsiders were unable to access the prison themself; it's up to you to escape the prison and defeat the overlord... can you?
                 </div>
