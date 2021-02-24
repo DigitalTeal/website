@@ -62,7 +62,7 @@ require ("vars.php");
                             <a class="nav-link" href="#jumpbound" onclick="openTab(event, 'jumpbound');" id="jumpboundOpen">JumpBound</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#updates" onclick="openTab(event, 'updates');">Latest updates</a>
+                            <a class="nav-link" href="#updates" onclick="openTab(event, 'updates');" id="updatesOpen">Latest updates</a>
                         </li>
                     </ul>
                     <hr class="d-sm-none" />
@@ -109,8 +109,15 @@ require ("vars.php");
                 evt.currentTarget.className += " active";
             }
             
-            if(window.location.href.endsWith("#jumpbound")) {
-                document.getElementById("jumpboundOpen").click();
+            /* Automatic opening of sections based on URLs */
+            if(window.location.href.includes("#")) {
+                if(window.location.href.endsWith("#jumpbound")) {
+                    document.getElementById("jumpboundOpen").click();
+                } else if(window.location.href.endsWith("#updates")) {
+                    document.getElementById("updatesOpen").click();
+                }  else {
+                    document.getElementById("defaultOpen").click();
+                }
             } else {
                 document.getElementById("defaultOpen").click();
             }
