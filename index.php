@@ -1,5 +1,5 @@
 <?php
-require ("templates/vars.php");
+require ("assets/templates/vars.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,13 +18,13 @@ require ("templates/vars.php");
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/style.css" />
 
-<?php include("templates/analyticsCode.html"); ?>
+<?php include("assets/templates/analyticsCode.html"); ?>
     </head>
     <body>
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="oG4OyHff"></script>
 
-        <?php include ("templates/navbar.html"); ?>
+        <?php include ("assets/templates/navbar.html"); ?>
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -81,7 +81,7 @@ require ("templates/vars.php");
             </div>
         </div>
         
-        <?php include ("templates/footer.html"); ?>
+        <?php include ("assets/templates/footer.html"); ?>
 
         <script>
             // code based on https://w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs
