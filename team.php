@@ -45,7 +45,7 @@ require("assets/templates/vars.php");
                     <p>This page contains a list of DigitalTeal's group members.</p>
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="#leadership" id="defaultOpen" onclick="openTab(event, 'leadership');">Design, production, and leadership team</a>
+                            <a class="nav-link" href="#leadership" id="defaultOpen" onclick="openTab(event, 'leadership');">Production, marketing, and leadership team</a>
                             <a class="nav-link" href="#art" onclick="openTab(event, 'art');">Art/audio team</a>
                             <a class="nav-link" href="#coding" onclick="openTab(event, 'coding');">Coding team</a>
                         </li>
@@ -57,19 +57,19 @@ require("assets/templates/vars.php");
                     <div class="card">
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Screenshot-9" border="0" style="width: 50%;" />
                         <h1>NameIsA</h1>
-                        <p class="title">Owner, Game Producer</p>
+                        <p class="title">Owner, Producer, Social Media Manager, Game Concept & Level Design</p>
                         <p>NameIsA loves coding, animation, 3D modeling, and gaming.</p>
                     </div>
                     <br />
                     <div class="card">
                         <img src="https://i.ibb.co/rx68RW2/Screenshot-10.png" alt="Screenshot-10" border="0" style="width: 50%;" />
                         <h1>Pineapplecake14</h1>
-                        <p class="title">Co-Owner, Game Co-Producer</p>
+                        <p class="title">Co-Owner, Co-Producer</p>
                         <p></p>
                     </div>
                     <br/>
                     <div class="card">
-                        Story design has been a project done by all members of the DigitalTeal team.
+                        Video game story design has been a project done by all members of the DigitalTeal team.
                     </div>
                 </div>
 
@@ -92,13 +92,13 @@ require("assets/templates/vars.php");
                     <div class="card">
                         <h1>YeetYeetYeetYeetYees</h1>
                         <p class="title">Game rendering/modeling</p>
-                        <p></p>
+                        <p>Ho ho ho ha ha, ho ho ho he ha. Hello there, old chum. I’m gnot an gnelf. I’m gnot a goblin. I’m a gnome. And you’ve been, GNOMED</p>
                     </div>
                     <br />
                     <div class="card">
                         <h1>Magisukiyo</h1>
                         <p class="title">Audio & Music Producer</p>
-                        <p>wippity wine ur memes r mine</p>
+                        <p>wippity wine ur memes r mine wip</p>
                     </div>
                     <br />
                     <div class="card" style="display: inline-block;">The credit for a large amount of the UI goes to opengameart.org, especially <a href="https://opengameart.org/users/buch">Michele Bucelli</a>.</div>
