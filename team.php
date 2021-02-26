@@ -47,7 +47,7 @@ require("assets/templates/vars.php");
                         <li class="nav-item">
                             <a class="nav-link" href="#leadership" id="defaultOpen" onclick="openTab(event, 'leadership');">Production, marketing, and leadership team</a>
                             <a class="nav-link" href="#art" onclick="openTab(event, 'art');">Art/audio team</a>
-                            <a class="nav-link" href="#coding" onclick="openTab(event, 'coding');">Coding team</a>
+                            <a class="nav-link" href="#coding" onclick="openTab(event, 'coding');">Programming team</a>
                         </li>
                     </ul>
                     <hr class="d-sm-none" />
