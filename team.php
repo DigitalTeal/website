@@ -8,9 +8,7 @@ require("assets/templates/vars.php");
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://www.digitalteal.com/team" />
-        <meta name="description" content="
-        <?php echo $digitalTealConfig["metaDescription"]; ?>
-        "/>
+        <meta name="description" content="<?php echo $digitalTealConfig["metaDescription"]; ?>"/>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -48,7 +46,7 @@ require("assets/templates/vars.php");
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item">
                             <a class="nav-link" href="#leadership" id="defaultOpen" onclick="openTab(event, 'leadership');">Design, production, and leadership team</a>
-                            <a class="nav-link" href="#art" onclick="openTab(event, 'art');">Visual/auditory team</a>
+                            <a class="nav-link" href="#art" onclick="openTab(event, 'art');">Art/audio team</a>
                             <a class="nav-link" href="#coding" onclick="openTab(event, 'coding');">Coding team</a>
                         </li>
                     </ul>
