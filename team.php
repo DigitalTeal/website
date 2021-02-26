@@ -8,7 +8,7 @@ require("assets/templates/vars.php");
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://www.digitalteal.com/team" />
-        <meta name="description" content=" <?php echo $digitalTealConfig["metaDescription"] ?> "/>
+        <meta name="description" content="<?php echo $digitalTealConfig["metaDescription"]; ?>"/>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -46,9 +46,9 @@ require("assets/templates/vars.php");
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item">
                             <a class="nav-link" href="#leadership" id="defaultOpen" onclick="openTab(event, 'leadership');">Leadership team</a>
-                            <a class="nav-link" href="#art" onclick="openTab(event, 'art');">Art team</a>
+                            <a class="nav-link" href="#art" onclick="openTab(event, 'art');">Visual/auditory team</a>
                             <a class="nav-link" href="#coding" onclick="openTab(event, 'coding');">Coding team</a>
-                            <a class="nav-link" href="#design" onclick="openTab(event, 'design');">Design team</a>
+                            <a class="nav-link" href="#design" onclick="openTab(event, 'design');">Design/production team</a>
                         </li>
                     </ul>
                     <hr class="d-sm-none" />
@@ -59,6 +59,7 @@ require("assets/templates/vars.php");
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Screenshot-9" border="0" style="width: 50%;" />
                         <h1>NameIsA</h1>
                         <p class="title">Owner, Game Producer</p>
+                        <p>NameIsA loves coding, animation, 3D modeling, and gaming.</p>
                     </div>
                     <br />
 
@@ -66,6 +67,7 @@ require("assets/templates/vars.php");
                         <img src="https://i.ibb.co/rx68RW2/Screenshot-10.png" alt="Screenshot-10" border="0" style="width: 50%;" />
                         <h1>Pineapplecake14</h1>
                         <p class="title">Co-Owner, Game Co-Producer</p>
+                        <p></p>
                     </div>
                 </div>
 
@@ -74,6 +76,7 @@ require("assets/templates/vars.php");
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Screenshot-9" border="0" style="width: 50%;" />
                         <h1>NameIsA</h1>
                         <p class="title">Game Concept/Level Design</p>
+                        <p>NameIsA loves coding, animation, 3D modeling, and gaming.</p>
                     </div>
                     <br />
                     <div class="card">
@@ -86,6 +89,7 @@ require("assets/templates/vars.php");
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Screenshot-9" border="0" style="width: 50%;" />
                         <h1>NameIsA</h1>
                         <p class="title">Game Programmer, Web Developer</p>
+                        <p>NameIsA loves coding, animation, 3D modeling, and gaming.</p>
                     </div>
                 </div>
 
@@ -93,19 +97,28 @@ require("assets/templates/vars.php");
                     <div class="card">
                         <h1>Tree</h1>
                         <p class="title">Icon artist, pixel artist</p>
+                        <p>"i dont want a stupid *** descriptiob"</p>
                     </div>
                     <br />
                     <div class="card">
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Screenshot-9" border="0" style="width: 50%;" />
                         <h1>NameIsA</h1>
                         <p class="title">Game Concept Artist</p>
+                        <p></p>
                     </div>
                     <br />
                     <div class="card">
                         <h1>YeetYeetYeetYeetYees</h1>
                         <p class="title">Game rendering/modeling</p>
+                        <p></p>
                     </div>
                     <br />
+                    <div class="card">
+                        <h1>Magisukiyo</h1>
+                        <p class="title">Audio & Music Producer</p>
+                        <p>wippity wine ur memes r mine</p>
+                    </div>
+                    <br/>
                     <div class="card" style="display: inline-block;">The credit for a large amount of the UI goes to opengameart.org, especially <a href="https://opengameart.org/users/buch">Michele Bucelli</a>.</div>
                 </div>
             </div>
