@@ -72,7 +72,7 @@ require ("assets/templates/vars.php");
                     <br/><br/>
                     Upon further investigation, the outside world believes that the overlord was not succesful in designing a fool-proof prison or curse, but outsiders were unable to access the prison themself; it's up to you to escape the prison and defeat the overlord... can you?
                     <br/><br/>
-                    We will be posting updates about JumpBound on our social media accounts, especially our <a href="https://twitter.com/digital_teal">Twitter</a>.
+                    We will be posting updates about JumpBound on our social media accounts, especially our <a href="https://twitter.com/digital_teal">Twitter</a>. It will be released around April-May 2021.
                 </div>
                 <div class="col-sm-8 tabcontent" id="updates" style="display: none;">
                     <h2>Latest updates</h2>
