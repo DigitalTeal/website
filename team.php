@@ -55,14 +55,14 @@ require("assets/templates/vars.php");
 
                 <div class="tabcontent col-sm-8" id="leadership" style="display: flex;">
                     <div class="card">
-                        <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Screenshot-9" border="0" style="width: 50%;" />
+                        <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Profile picture of NameIsA, a DigitalTeal staff member" title="Profile picture of NameIsA a DigitalTeal staff member" border="0" style="width: 50%;" />
                         <h1>NameIsA</h1>
                         <p class="title">Owner, Producer, Social Media Manager, Game Concept & Level Design</p>
                         <p>NameIsA loves coding, animation, 3D modeling, and gaming.</p>
                     </div>
                     <br />
                     <div class="card">
-                        <img src="https://i.ibb.co/rx68RW2/Screenshot-10.png" alt="Screenshot-10" border="0" style="width: 50%;" />
+                        <img src="https://i.ibb.co/rx68RW2/Screenshot-10.png" alt="Profile picture of Pineapplecake14, a DigitalTeal staff member" title="Profile picture of Pineapplecake14 a DigitalTeal staff member" border="0" style="width: 50%;" />
                         <h1>Pineapplecake14</h1>
                         <p class="title">Co-Owner, Co-Producer</p>
                         <p></p>
@@ -75,7 +75,7 @@ require("assets/templates/vars.php");
 
                 <div class="tabcontent col-sm-8" id="coding" style="display: none;">
                     <div class="card">
-                        <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Screenshot-9" border="0" style="width: 50%;" />
+                        <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Profile picture of NameIsA, a DigitalTeal staff member" title="Profile picture of NameIsA a DigitalTeal staff member" border="0" style="width: 50%;" />
                         <h1>NameIsA</h1>
                         <p class="title">Game Programmer, Web Developer</p>
                         <p>NameIsA loves coding, animation, 3D modeling, and gaming.</p>
