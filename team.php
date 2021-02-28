@@ -41,6 +41,9 @@ require("assets/templates/vars.php");
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Team</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subtoemail">Subscribe to email marketing</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -61,6 +64,7 @@ require("assets/templates/vars.php");
                 </div>
 
                 <div class="tabcontent col-sm-8" id="leadership" style="display: flex;">
+                    <noscript>JavaScript is required for this page to display properly.</noscript>
                     <div class="card">
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Profile picture of NameIsA, a DigitalTeal staff member" title="Profile picture of NameIsA a DigitalTeal staff member" border="0" style="width: 50%;" />
                         <h1>NameIsA</h1>

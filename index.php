@@ -46,6 +46,9 @@ require ("assets/templates/vars.php");
                     <li class="nav-item">
                         <a class="nav-link" href="./team">Team</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subtoemail">Subscribe to email marketing</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -69,6 +72,7 @@ require ("assets/templates/vars.php");
                     <hr class="d-sm-none" />
                 </div>
                 <div class="col-sm-8 tabcontent" id="info" style="display: block;">
+                    <noscript>JavaScript is required for this page to display properly.</noscript>
                     <h2>General information</h2>
                     <?php echo $digitalTealConfig["about"]; ?>
                     <br /><br/>
