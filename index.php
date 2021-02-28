@@ -79,6 +79,7 @@ require ("assets/templates/vars.php");
                     We plan to release a game around April-May 2021 called JumpBound, then develop multiple other apps and games, for both mobile and desktop. Click the "JumpBound" link for more information.
                 </div>
                 <div class="col-sm-8 tabcontent" id="jumpbound" style="display: none;">
+                    <a href="https://ibb.co/nwfVGfD"><img src="https://i.ibb.co/51vz0v5/jumpbound.png" alt="A banner containing the words “JumpBound”, with “Jump” colored black and “Bound” colored brown. Three lines, the middle one red, appear above the part of “JumpBound” that reads “Jump”. The background is a dark brown paper scroll." title="The JumpBound banner" border="0"></a>
                     <h2>JumpBound</h2>
                     JumpBound is a 3D role-playing game designed around a theme of mystery and adventure. The player is trapped inside a prison-like cell, cursed by an evil overlord causing the player to be unable to make large jumps with their entire memory erased.
                     <br/><br/>
