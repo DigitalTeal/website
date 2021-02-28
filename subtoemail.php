@@ -4,11 +4,11 @@ require ("assets/templates/vars.php");
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DigitalTeal - Email marketing</title>
+        <title>DigitalTeal - Home page</title>
         <meta name="description" content="<?php echo $digitalTealConfig["metaDescription"]; ?>"/>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.digitalteal.com/" />
+        <link rel="canonical" href="https://www.digitalteal.com/subtoemail" />
         
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -49,6 +49,9 @@ require ("assets/templates/vars.php");
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Subscribe to email marketing</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/affiliates">Affiliates</a>
+                    </li>                        
                 </ul>
             </div>
         </nav>

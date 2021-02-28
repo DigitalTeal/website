@@ -49,6 +49,9 @@ require ("assets/templates/vars.php");
                     <li class="nav-item">
                         <a class="nav-link" href="/subtoemail">Subscribe to email marketing</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/affiliates">Affiliates</a>
+                    </li>                    
                 </ul>
             </div>
         </nav>
