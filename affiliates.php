@@ -70,7 +70,7 @@ require ("assets/templates/vars.php");
                 </div>
                 <div class="col-sm-8 tabcontent" id="info" style="display: block;">
                     <h2>Affiliates</h2>
-                    <a href="https://prodigy-game-fanon.fandom.com">Prodigy Fanon Wiki</a> (friend of DigitalTeal owner administrates)
+                    <a href="https://prodigy-game-fanon.fandom.com">Prodigy Fanon Wiki</a> (friend of DigitalTeal owner administrates this wiki, affiliation is a curtosy)
                 </div>
             </div>
         </div>
