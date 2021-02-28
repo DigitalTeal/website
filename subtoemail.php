@@ -4,7 +4,7 @@ require ("assets/templates/vars.php");
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DigitalTeal - Home page</title>
+        <title>DigitalTeal - Email marketing</title>
         <meta name="description" content="<?php echo $digitalTealConfig["metaDescription"]; ?>"/>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
