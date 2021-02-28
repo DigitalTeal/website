@@ -70,14 +70,14 @@ require("assets/templates/vars.php");
                     <noscript>JavaScript is required for this page to display properly.</noscript>
                     <div class="card">
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Profile picture of NameIsA, a DigitalTeal staff member" title="Profile picture of NameIsA a DigitalTeal staff member" border="0" style="width: 50%;" />
-                        <h1>NameIsA</h1>
+                        <h2>NameIsA</h2>
                         <p class="title">Owner, Producer, Social Media Manager, Game Concept & Level Design</p>
                         <p>NameIsA loves coding, animation, 3D modeling, and gaming.</p>
                     </div>
                     <br />
                     <div class="card">
                         <img src="https://i.ibb.co/rx68RW2/Screenshot-10.png" alt="Profile picture of Pineapplecake14, a DigitalTeal staff member" title="Profile picture of Pineapplecake14 a DigitalTeal staff member" border="0" style="width: 50%;" />
-                        <h1>Pineapplecake14</h1>
+                        <h2>Pineapplecake14</h2>
                         <p class="title">Co-Owner, Co-Producer</p>
                         <p></p>
                     </div>
@@ -90,7 +90,7 @@ require("assets/templates/vars.php");
                 <div class="tabcontent col-sm-8" id="coding" style="display: none;">
                     <div class="card">
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Profile picture of NameIsA, a DigitalTeal staff member" title="Profile picture of NameIsA a DigitalTeal staff member" border="0" style="width: 50%;" />
-                        <h1>NameIsA</h1>
+                        <h2>NameIsA</h2>
                         <p class="title">Game Programmer, Web Developer</p>
                         <p>NameIsA loves coding, animation, 3D modeling, and gaming.</p>
                     </div>
@@ -98,23 +98,28 @@ require("assets/templates/vars.php");
 
                 <div class="tabcontent col-sm-8" id="art" style="display: none;">
                     <div class="card">
-                        <h1>Tree</h1>
+                        <h2>Tree</h2>
                         <p class="title">Icon artist, pixel artist</p>
-                        <p>"i dont want a stupid *** descriptiob"</p>
+                        <p></p>
                     </div>
                     <br />
                     <div class="card">
-                        <h1>YeetYeetYeetYeetYees</h1>
+                        <h2>YeetYeetYeetYeetYees</h2>
                         <p class="title">Game rendering/modeling</p>
-                        <p>Ho ho ho ha ha, ho ho ho he ha. Hello there, old chum. I’m gnot an gnelf. I’m gnot a goblin. I’m a gnome. And you’ve been, GNOMED</p>
+                        <p></p>
                     </div>
                     <br />
                     <div class="card">
-                        <h1>Magisukiyo</h1>
+                        <h2>Magisukiyo</h2>
                         <p class="title">Audio & Music Producer</p>
-                        <p>wippity wine ur memes r mine wip</p>
+                        <p></p>
                     </div>
                     <br />
+                    <div class="card">
+                        <h2>Solo789</h2>
+                        <p class="title">Concept Artist</p>
+                    </div>
+                    <br/>
                     <div class="card" style="display: inline-block;">The credit for a large amount of the UI goes to opengameart.org, especially <a href="https://opengameart.org/users/buch">Michele Bucelli</a>.</div>
                 </div>
             </div>
