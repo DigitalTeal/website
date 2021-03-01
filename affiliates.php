@@ -72,6 +72,7 @@ require ("assets/templates/vars.php");
                     <h2>Affiliates</h2>
                     <h3>Small Partners</h3>
                     Small websites and services affiliated with DigitalTeal.
+                    <br/>
                     <a href="https://prodigy-game-fanon.fandom.com">Prodigy Fanon Wiki</a>
                 </div>
             </div>
