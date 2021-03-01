@@ -104,9 +104,7 @@ require("assets/templates/vars.php");
                     </div>
                     <br />
                     <div class="card">
-                        <h2>YeetYeetYeetYeetYees</h2>
-                        <p class="title">Game rendering/modeling</p>
-                        <p></p>
+                        <p>Various members of the DigitalTeal team and various websites/artists have supplied 3D models for JumpBound.</p>
                     </div>
                     <br />
                     <div class="card">
@@ -118,6 +116,7 @@ require("assets/templates/vars.php");
                     <div class="card">
                         <h2>Solo789</h2>
                         <p class="title">Concept Artist</p>
+                        <p>Solo is a content artist for DigitalTeal. She's studying mythical races and has an interest in Medieval weapons, buildings, and traditions.</p>
                     </div>
                     <br/>
                     <div class="card" style="display: inline-block;">The credit for a large amount of the UI goes to opengameart.org, especially <a href="https://opengameart.org/users/buch">Michele Bucelli</a>.</div>
