@@ -44,9 +44,6 @@ require("assets/templates/vars.php");
                     <li class="nav-item">
                         <a class="nav-link" href="/subtoemail">Subscribe to email marketing</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/affiliates">Affiliates</a>
-                    </li>
                 </ul>
             </div>
         </nav>
@@ -70,16 +67,14 @@ require("assets/templates/vars.php");
                     <noscript>JavaScript is required for this page to display properly.</noscript>
                     <div class="card">
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Profile picture of NameIsA, a DigitalTeal staff member" title="Profile picture of NameIsA a DigitalTeal staff member" border="0" style="width: 50%;" />
-                        <h2>NameIsA</h2>
                         <p class="title">Owner, Producer, Social Media Manager, Game Concept & Level Design</p>
-                        <p>NameIsA loves coding, animation, 3D modeling, and gaming.</p>
+                        <p>NameIsA</p>
                     </div>
                     <br />
                     <div class="card">
                         <img src="https://i.ibb.co/rx68RW2/Screenshot-10.png" alt="Profile picture of Pineapplecake14, a DigitalTeal staff member" title="Profile picture of Pineapplecake14 a DigitalTeal staff member" border="0" style="width: 50%;" />
-                        <h2>Pineapplecake14</h2>
                         <p class="title">Co-Owner, Co-Producer</p>
-                        <p></p>
+                        <p>Pineapplecake41</p>
                     </div>
                     <br/>
                     <div class="card">
@@ -90,17 +85,15 @@ require("assets/templates/vars.php");
                 <div class="tabcontent col-sm-8" id="coding" style="display: none;">
                     <div class="card">
                         <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Profile picture of NameIsA, a DigitalTeal staff member" title="Profile picture of NameIsA a DigitalTeal staff member" border="0" style="width: 50%;" />
-                        <h2>NameIsA</h2>
-                        <p class="title">Game Programmer, Web Developer</p>
-                        <p>NameIsA loves coding, animation, 3D modeling, and gaming.</p>
+                        <p class="title">Owner, Producer, Social Media Manager, Game Concept & Level Design</p>
+                        <p>NameIsA</p>
                     </div>
                 </div>
 
                 <div class="tabcontent col-sm-8" id="art" style="display: none;">
                     <div class="card">
-                        <h2>Tree</h2>
                         <p class="title">Icon artist, pixel artist</p>
-                        <p></p>
+                        <p>Tree</p>
                     </div>
                     <br />
                     <div class="card">
@@ -108,15 +101,13 @@ require("assets/templates/vars.php");
                     </div>
                     <br />
                     <div class="card">
-                        <h2>Magisukiyo</h2>
                         <p class="title">Audio & Music Producer</p>
-                        <p></p>
+                        <p>Magisukiyo</p>
                     </div>
                     <br />
                     <div class="card">
-                        <h2>Solo789</h2>
                         <p class="title">Concept Artist</p>
-                        <p>Solo is a content artist for DigitalTeal. She's studying mythical races and has an interest in Medieval weapons, buildings, and traditions.</p>
+                        <p>Solo789</p>
                     </div>
                     <br/>
                     <div class="card" style="display: inline-block;">The credit for a large amount of the UI goes to opengameart.org, especially <a href="https://opengameart.org/users/buch">Michele Bucelli</a>.</div>

@@ -48,10 +48,7 @@ require ("assets/templates/vars.php");
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Subscribe to email marketing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/affiliates">Affiliates</a>
-                    </li>                        
+                    </li>                 
                 </ul>
             </div>
         </nav>
@@ -70,6 +67,7 @@ require ("assets/templates/vars.php");
                 </div>
                 <div class="col-sm-8 tabcontent" id="info" style="display: block;">
                     <noscript>JavaScript is required for this page to be displayed.</noscript>
+                    Use this page to subscribe to emails about surveys, new products, and product announcements.
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRRsKOOtm6CN3dqBzEV3WJ7pjWglb8rhTJY6wxhJjDmdG-tw/viewform?embedded=true" width="640" height="415" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
               
