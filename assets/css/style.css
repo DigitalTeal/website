@@ -1,26 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 body {
-  font-family: Rubik;
+    font-family: Rubik;
 }
 
 h1 {
-  border-bottom: 3px solid #ffe41c;
-  font-size: 1.8rem;
+    border-bottom: 3px solid #ffe41c;
+    font-size: 1.8rem;
 }
 
 body {
-  font-family: Rubik;
-  background-color: #009688;
+    font-family: Rubik;
+    background-color: #009688;
 }
 
 #description {
-  background-color: #009688;
-  color: white;
+    background-color: #009688;
+    color: white;
 }
 
 .card p:not(.title) {
-  color: black !important;
+    color: black !important;
 }
 
 .card {
@@ -28,13 +28,13 @@ body {
   margin: auto;
   text-align: center;
   font-family: arial;
-  display: inline-block;
+  display: inline-flex;
   height: 80%;
   border: 0;
 }
 
 .card > img {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 .title {
@@ -60,18 +60,17 @@ body {
   color: black;
 }
 
-.card > button:hover,
-a:hover {
+.card > button:hover, a:hover {
   opacity: 0.7;
 }
 
 .page-header {
   margin-bottom: 0;
-  padding: 0 !important;
+  padding: 0!important;
   border: 3px solid black;
   border-radius: 0;
 }
 
 .title {
-  font-size: 14px;
+    font-size: 14px;
 }
