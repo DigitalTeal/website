@@ -25,7 +25,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         
-        <?php include("assets/templates/analyticsCode.html"); ?>
+        <?php require "assets/templates/analyticsCode.html"; ?>
 
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
