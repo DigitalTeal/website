@@ -11,7 +11,7 @@ body {
 #notfound {
   position: relative;
   height: 100vh;
-  background-color: #fafbfd;
+  background-color: #cccccc;
 }
 
 #notfound .notfound {
