@@ -31,10 +31,6 @@ include 'assets/templates/vars.php';
     <link rel="stylesheet" href="/assets/css/style.css" />
 
     <?php include("assets/templates/analyticsCode.html"); ?>
-
-    <style>
-
-    </style>
     <body>
         <!-- Navigation -->
         <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c; border-bottom: none;">
