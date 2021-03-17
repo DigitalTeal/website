@@ -1,3 +1,6 @@
+<?php
+include 'assets/templates/vars.php';
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -29,24 +32,6 @@
         <link rel="stylesheet" href="/assets/css/style.css" />
 
         <?php include("assets/templates/analyticsCode.html"); ?>
-
-        <style>
-            @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
-
-            body {
-                font-family: Rubik;
-                background-color: #009688;
-            }
-
-            #description {
-                background-color: #009688;
-                color: white;
-            }
-
-            .card p:not(.title) {
-                color: black !important;
-            }
-        </style>
     </head>
 
     <body>
@@ -70,7 +55,7 @@
         <!-- Description -->
         <section id="description" class="w3-container w3-center w3-content">
             <div class="container">
-                <h1 style="border-bottom: 3px solid #ffe41c;">DigitalTeal - Team</h1>
+                <h1>DigitalTeal - Team</h1>
                 <br/>
                 Special thanks: opengameart.org, Michelle Bucelli
                 <br/>
