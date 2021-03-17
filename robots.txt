@@ -3,3 +3,14 @@ Disallow: /assets/
 Disallow: /sitemap.txt
 Disallow: /footer.html
 Disallow: /vars.php
+Disallow: /favicon.ico
+Disallow: /favicon-16x16.ico
+Disallow: /favicon-32x32.ico
+Disallow: /browserconfig.xml
+Disallow: /android-chrome-192x192.png
+Disallow: /android-chrome-384x384.png
+Disallow: /android-chrome-512x512.png
+Disallow: /apple-touch-icon.png
+Disallow: /mstile-150x150.png
+Disallow: /safari-pinned-tab.svg
+Disallow: /site.webmanifest
