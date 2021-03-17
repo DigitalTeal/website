@@ -4,6 +4,10 @@ body {
     font-family: Rubik;
 }
 
+h1, h2, h3 {
+    border-bottom: 3px solid #ffe41c;
+}
+
 .card {
   width: 25%;
   margin: auto;
