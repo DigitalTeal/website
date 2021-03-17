@@ -56,7 +56,7 @@ include 'assets/templates/vars.php';
         <section id="description" class="w3-container w3-center w3-content" style="max-width: 600px;">
             <div class="container" style="margin-top: 30px;">
                 <div class="row">
-                    <h1>DigitalTeal - Subscribe to email marketing</h1>
+                    <h2>DigitalTeal - Subscribe to email marketing</h2>
                     <div class="col-sm-4">
                         <h1><?php echo $digitalTealConfig["aboutHeader"]; ?></h1>
                         <p><?php echo $digitalTealConfig["about"]; ?></p>
