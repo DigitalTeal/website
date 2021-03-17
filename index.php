@@ -39,7 +39,7 @@ include 'assets/templates/vars.php';
             <a href="#jumpbound" onclick="window.location.href = 'https://digitalteal.com/#jumpbound'; location.reload()" ; class="w3-button w3-bar-item">JumpBound</a>
             <a href="/team" class="w3-button w3-bar-item">Team</a>
             <a href="/subtoemail" class="w3-button w3-bar-item">Subscribe to email marketing</a>
-            <a href="/contact#info" class="w3-button w3-bar-item">Contact</a>
+            <a href="/contact" class="w3-button w3-bar-item">Contact</a>
         </nav>
         <!-- Banner -->
         <img
