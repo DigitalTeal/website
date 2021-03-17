@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    font-family: Rubik;
+}
+
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 50%;
+  width: 25%;
   margin: auto;
   text-align: center;
   font-family: arial;
   display: inline-block;
-  height: 100%;
+  height: 80%;
+  border: 0;
+}
+
+.card > img {
+    border-radius: 50%;
 }
 
 .title {
@@ -44,4 +54,8 @@ h1 {
   padding: 0!important;
   border: 3px solid black;
   border-radius: 0;
+}
+
+.title {
+    font-size: 14px;
 }
