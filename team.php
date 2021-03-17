@@ -55,7 +55,7 @@ include 'assets/templates/vars.php';
         <!-- Description -->
         <section id="description" class="w3-container w3-center w3-content">
             <div class="container">
-                <h1>DigitalTeal - Team</h1>
+                <h2>DigitalTeal - Team</h2>
                 <br/>
                 Special thanks: opengameart.org, Michelle Bucelli
                 <br/>
