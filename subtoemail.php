@@ -34,6 +34,7 @@ include 'assets/templates/vars.php';
     <body>
         <!-- Navigation -->
         <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c; border-bottom: none;">
+            <img src="https://digitalteal.com/assets/img/logo.png" class="w3-bar-item" style="height: 10%; width: 7%;" />
             <a href="/" class="w3-button w3-bar-item">About</a>
             <a href="#" class="w3-button w3-bar-item">JumpBound</a>
             <a href="/team" class="w3-button w3-bar-item">Team</a>
@@ -75,12 +76,9 @@ include 'assets/templates/vars.php';
                 </div>
             </div>
         </section>
+        
         <!-- Footer -->
-        <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-            <a href="https://facebook.com/DigitalTeal"><i class="fa fa-facebook-official"></i></a>
-            <a href="https://instagram.com/digital_teal"><i class="fa fa-instagram"></i></a>
-            <a href="https://twitter.com/digital_teal"><i class="fa fa-twitter"></i></a>
-        </footer>
+        <?php include 'assets/templates/footer.html'; ?>
 
         <script>
             // code based on https://w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs

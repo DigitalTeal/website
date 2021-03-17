@@ -76,13 +76,13 @@ include 'assets/templates/vars.php';
 
                     <div class="tabcontent col-sm-8" id="leadership" style="display: inline-block;">
                         <div class="card" style="color: black;">
-                            <p>NameIsA</p>
-                            <p class="title">Owner, Product Manager</p>
+                            <p>Connor Ahern</p>
+                            <p class="title">Owner</p>
                         </div>
 
                         <div class="card">
                             <p>Pineapplecake41</p>
-                            <p class="title">Co-Owner, Producer, Marketing Director</p>
+                            <p class="title">Co-Owner, Producer</p>
                         </div>
                         
                         <div class="card">
@@ -93,7 +93,7 @@ include 'assets/templates/vars.php';
 
                     <div class="tabcontent col-sm-8" id="coding" style="display: none;">
                         <div class="card">
-                            <p>NameIsA</p>                            
+                            <p>Connor Ahern</p>                            
                             <p class="title">Product Manager</p>
                         </div>
                         
@@ -124,11 +124,7 @@ include 'assets/templates/vars.php';
         </section>
 
         <!-- Footer -->
-        <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-            <a href="https://facebook.com/DigitalTeal"><i class="fa fa-facebook-official"></i></a>
-            <a href="https://instagram.com/digital_teal"><i class="fa fa-instagram"></i></a>
-            <a href="https://twitter.com/digital_teal"><i class="fa fa-twitter"></i></a>
-        </footer>
+        <?php include 'assets/templates/footer.html'; ?>
 
         <script>
             // code based on https://w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs

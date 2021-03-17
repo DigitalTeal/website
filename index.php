@@ -8,7 +8,7 @@ include 'assets/templates/vars.php';
     <link rel="stylesheet" href="/w3css/3/w3.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
     <title>DigitalTeal - Home page</title>
-    <meta name="description" content="DigitalTeal is a coding group consisting of 5 members. Currently, DigitalTeal is developing a new and open-source game called JumpBound." />
+    <meta name="description" content="<?php echo config["metaDescription"] ?>"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="canonical" href="https://www.digitalteal.com/" />
@@ -120,12 +120,9 @@ include 'assets/templates/vars.php';
                 </div>
             </div>
         </section>
+        
         <!-- Footer -->
-        <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-            <a href="https://facebook.com/DigitalTeal"><i class="fa fa-facebook-official"></i></a>
-            <a href="https://instagram.com/digital_teal"><i class="fa fa-instagram"></i></a>
-            <a href="https://twitter.com/digital_teal"><i class="fa fa-twitter"></i></a>
-        </footer>
+        <?php include 'assets/templates/footer.html'; ?>
 
         <script>
             // code based on https://w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs
