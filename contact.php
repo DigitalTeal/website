@@ -13,7 +13,7 @@ include 'assets/templates/vars.php';
     <meta name="description" content="<?php echo config["metaDescription"] ?>" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="canonical" href="https://www.digitalteal.com/subtoemail" />
+    <link rel="canonical" href="https://www.digitalteal.com/contact" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -59,7 +59,7 @@ include 'assets/templates/vars.php';
                         <p><?php echo $digitalTealConfig["about"]; ?></p>
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" href="#info" onclick="openTab(event, 'info');" id="defaultOpen">Subscribe to email marketing</a>
+                                <a class="nav-link" href="#info" onclick="openTab(event, 'info');" id="defaultOpen">Contact DigitalTeal</a>
                             </li>
                         </ul>
                         <hr class="d-sm-none" />
@@ -69,9 +69,7 @@ include 'assets/templates/vars.php';
 
                         <p>Use this page to contact us about questions, complaints, and unsubscribing from emails.</p>
 
-                       <!--  put the new link in here <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRRsKOOtm6CN3dqBzEV3WJ7pjWglb8rhTJY6wxhJjDmdG-tw/viewform?embedded=true" width="640" height="415" frameborder="0" marginheight="0" marginwidth="0"> -->
-                            Loading…
-                        </iframe>
+                         <script type="text/javascript" src="https://form.jotform.com/jsform/210756563875062"></script>
                     </div>
                 </div>
             </div>
