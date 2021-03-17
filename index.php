@@ -24,6 +24,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        <?php include("assets/templates/analyticsCode.html"); ?>
 
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
@@ -54,10 +56,10 @@
             style="width: 100%; border: 1px solid #ffe41c;"
         />
         <!-- Description -->
-        <section id="description" class="w3-container w3-center w3-content" style="max-width: 600px;">
-             <div class="container" style="margin-top: 30px;">
+        <section id="description" class="w3-container w3-center w3-content" style="max-width: 600px; text-align: center;">
+             <div class="container" style="margin-top: 30px; text-align: center!important;">
+            <h1 style="border-bottom: 3px solid #ffe41c;">DigitalTeal</h1>
             <div class="row">
-                <h1>DigitalTeal</h1>
                 <div class="col-sm-4">
                     <h1><?php echo $digitalTealConfig["aboutHeader"]; ?></h1>
                     <p><?php echo $digitalTealConfig["about"]; ?></p>

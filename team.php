@@ -1,54 +1,68 @@
-<?php
-require("assets/templates/vars.php");
-?>
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>DigitalTeal - Team</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.digitalteal.com/team" />
-        <meta name="description" content="<?php echo $digitalTealConfig["metaDescription"]; ?>"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#008080">
+<html>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="/assets/css/style.css" />
-        <?php include("assets/templates/analyticsCode.html"); ?>
-    </head>
-    <body>
-        <?php include("assets/templates/navbar.html"); ?>
+    <title>DigitalTeal - Team</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://www.digitalteal.com/team" />
+    <meta name="description" content="<?php echo $digitalTealConfig["metaDescription"]; ?>" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#008080">
 
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/subtoemail">Subscribe to email marketing</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-        <div class="container" style="margin-top: 30px;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <?php include("assets/templates/analyticsCode.html"); ?>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+        body {
+            font-family: Rubik;
+            background-color: #701c3c;
+        }
+
+        #description {
+            background-color: #701c3c;
+            color: white;
+        }
+
+        .card p:not(.title) {
+            color: black !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c; border-bottom: none;">
+        <a href="/" class="w3-button w3-bar-item">About</a>
+        <a href="#" class="w3-button w3-bar-item">JumpBound</a>
+        <a href="#" class="w3-button w3-bar-item">Team</a>
+        <a href="/subtoemail" class="w3-button w3-bar-item">Subscribe to email marketing</a>
+        <a href="/contact" class="w3-button w3-bar-item">Contact</a>
+    </nav>
+    <!-- Banner -->
+    <img src="https://i.ibb.co/7bmKnqd/Digital-Teal-Banner.jpg" alt="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background." title="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background." class="banner" style="width: 100%; border: 1px solid #ffe41c;" />
+    <!-- Description -->
+    <section id="description" class="w3-container w3-center w3-content">
+        <div class="container">
+            <h1 style="border-bottom: 3px solid #ffe41c;">DigitalTeal - Team</h1>
             <div class="row">
                 <div class="col-sm-4">
                     <h1>DigitalTeal Team</h1>
@@ -62,60 +76,63 @@ require("assets/templates/vars.php");
                     </ul>
                     <hr class="d-sm-none" />
                 </div>
+                <noscript>JavaScript is required for this page to display properly.</noscript>
 
-                <div class="tabcontent col-sm-8" id="leadership" style="display: flex;">
-                    <noscript>JavaScript is required for this page to display properly.</noscript>
-                    <div class="card">
-                        <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Profile picture of NameIsA, a DigitalTeal staff member" title="Profile picture of NameIsA a DigitalTeal staff member" border="0" style="width: 50%;" />
-                        <p class="title">Owner, Producer, Social Media Manager, Game Concept & Level Design</p>
+                <div class="tabcontent col-sm-8" id="leadership" style="display: inline-block;">
+                    <div class="card" style="color: black;">
+
                         <p>NameIsA</p>
+                        <p class="title">Owner, Social Media Manager, Product Manager, Assistant Software Engineer</p>
+
                     </div>
-                    <br />
+
                     <div class="card">
-                        <img src="https://i.ibb.co/rx68RW2/Screenshot-10.png" alt="Profile picture of Pineapplecake14, a DigitalTeal staff member" title="Profile picture of Pineapplecake14 a DigitalTeal staff member" border="0" style="width: 50%;" />
-                        <p class="title">Co-Owner, Co-Producer</p>
+
                         <p>Pineapplecake41</p>
-                    </div>
-                    <br/>
-                    <div class="card">
-                        Video game story design has been a project done by all members of the DigitalTeal team.
+                        <p class="title">Co-Owner, Producer, Product Manager, Marketing Director, Beta tester</p>
+
                     </div>
                 </div>
 
                 <div class="tabcontent col-sm-8" id="coding" style="display: none;">
                     <div class="card">
-                        <img src="https://i.ibb.co/6gTCphL/download.jpg" alt="Profile picture of NameIsA, a DigitalTeal staff member" title="Profile picture of NameIsA a DigitalTeal staff member" border="0" style="width: 50%;" />
-                        <p class="title">Owner, Producer, Social Media Manager, Game Concept & Level Design</p>
-                        <p>NameIsA</p>
+                    <p class="title">Owner, Social Media Manager, Product Manager, Assistant Software Engineer</p>  
+                    <p>NameIsA</p>
                     </div>
                 </div>
 
                 <div class="tabcontent col-sm-8" id="art" style="display: none;">
                     <div class="card">
-                        <p class="title">Icon artist, pixel artist</p>
-                        <p>Tree</p>
+                    <p class="title">Icon artist, pixel artist</p>
+                    <p>Tree</p>
                     </div>
-                    <br />
+                    
                     <div class="card">
                         <p>Various members of the DigitalTeal team and various websites/artists have supplied 3D models for JumpBound.</p>
                     </div>
-                    <br />
+                    
                     <div class="card">
                         <p class="title">Audio & Music Producer</p>
                         <p>Magisukiyo</p>
                     </div>
-                    <br />
+                    
                     <div class="card">
                         <p class="title">Concept Artist</p>
                         <p>Solo789</p>
                     </div>
-                    <br/>
-                    <div class="card" style="display: inline-block;">The credit for a large amount of the UI goes to opengameart.org, especially <a href="https://opengameart.org/users/buch">Michele Bucelli</a>.</div>
+                    
+                    <div class="card"><p>The credit for a large amount of the UI goes to opengameart.org, especially <a href="https://opengameart.org/users/buch">Michele Bucelli</a>.</p></div>
                 </div>
             </div>
         </div>
 
-        <?php include("assets/templates/footer.html"); ?>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+            <a href="https://facebook.com/DigitalTeal"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://instagram.com/digital_teal"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/digital_teal"><i class="fa fa-twitter"></i></a>
+        </footer>
 
         <script>
             // code based on https://w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs
@@ -133,11 +150,13 @@ require("assets/templates/vars.php");
                     tablinks[i].className = tablinks[i].className.replace(" active", "");
                 }
 
-                document.getElementById(tabName).style.display = "flex";
+                document.getElementById(tabName).style.display = "inline-block";
                 evt.currentTarget.className += " active";
             }
 
             document.getElementById("defaultOpen").click();
         </script>
-    </body>
+
+</body>
+
 </html>
