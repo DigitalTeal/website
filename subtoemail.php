@@ -43,7 +43,7 @@ include 'assets/templates/vars.php';
         </nav>
         <!-- Banner -->
         <img
-            src="https://i.ibb.co/7bmKnqd/Digital-Teal-Banner.jpg"
+            src="https://pasteboard.co/JT5wmagh.png"
             alt="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background."
             title="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background."
             class="banner"
