@@ -8,7 +8,7 @@ include 'assets/templates/vars.php';
     <link rel="stylesheet" href="/w3css/3/w3.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
     <title>DigitalTeal - Home page</title>
-    <meta name="description" content="<?php echo config["metaDescription"] ?>"/>
+    <meta name="description" content="<?php echo $digitalTealConfig["metaDescription"] ?>"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="canonical" href="https://www.digitalteal.com/" />
@@ -43,7 +43,7 @@ include 'assets/templates/vars.php';
         </nav>
         <!-- Banner -->
         <img
-            src="https://pasteboard.co/JT5wmagh.png"
+            src="https://i.ibb.co/7bmKnqd/Digital-Teal-Banner.jpg"
             alt="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background."
             title="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background."
             class="banner"
