@@ -31,10 +31,10 @@
         @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
         body {
             font-family: Rubik;
-            background-color: #701c3c;
+            background-color: #009688;
         }
         #description {
-        	background-color: #701c3c;
+        	background-color: #009688;
             color: white;
         }
     </style>
