@@ -8,6 +8,16 @@ h1, h2, h3 {
     border-bottom: 3px solid #ffe41c;
 }
 
+body {
+    font-family: Rubik;
+    background-color: #701c3c;
+}
+
+#description {
+    background-color: #701c3c;
+    color: white;
+}
+
 .card {
   width: 25%;
   margin: auto;
