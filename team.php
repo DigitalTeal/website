@@ -61,7 +61,7 @@ include 'assets/templates/vars.php';
                 <br/>
                 <div class="row">
                     <div class="col-sm-4">
-                        <h1>DigitalTeal Team</h1>
+                        <h2>DigitalTeal Team</h2>
                         <p>This page contains a list of DigitalTeal's group members.</p>
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item">
@@ -84,34 +84,39 @@ include 'assets/templates/vars.php';
                             <p>Pineapplecake41</p>
                             <p class="title">Co-Owner, Producer, Marketing Director</p>
                         </div>
+                        
+                        <div class="card">
+                            <p>Emily Piza</p>
+                            <p class="title">Social Media Manager</p>
+                        </div>
                     </div>
 
                     <div class="tabcontent col-sm-8" id="coding" style="display: none;">
                         <div class="card">
+                            <p>NameIsA</p>                            
                             <p class="title">Product Manager</p>
-                            <p>NameIsA</p>
                         </div>
                         
                         <div class="card">
+                            <p>irhrhd</p>                            
                             <p class="title">Software Engineer</p>
-                            <p>irhrhd</p>
                         </div>
                     </div>
 
                     <div class="tabcontent col-sm-8" id="art" style="display: none;">
                         <div class="card">
+                            <p>Tree</p>                            
                             <p class="title">Pixel artist</p>
-                            <p>Tree</p>
                         </div>
 
                         <div class="card">
+                            <p>Magisukiyo</p>                            
                             <p class="title">Audio Producer</p>
-                            <p>Magisukiyo</p>
                         </div>
 
                         <div class="card">
+                            <p>Solo789</p>                            
                             <p class="title">Concept Artist</p>
-                            <p>Solo789</p>
                         </div>
                     </div>
                 </div>
