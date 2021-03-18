@@ -84,6 +84,9 @@ include 'assets/templates/vars.php';
                         We plan to release a game around April-May 2021 called JumpBound, then develop multiple other apps and games, for both mobile and desktop. Click the "JumpBound" link for more information.
                     </div>
                     <div class="col-sm-8 tabcontent" id="jumpbound" style="display: none;">
+                        <b>For more information, please see the <a href="https://wiki.jumpbound.com">Jumpbound Wiki</a>.</b>
+                        <br/>
+                        <br/>
                         <img
                             src="https://i.ibb.co/51vz0v5/jumpbound.png"
                             alt="A banner containing the words “JumpBound”, with “Jump” colored black and “Bound” colored brown. Three lines, the middle one red, appear above the part of “JumpBound” that reads “Jump”. The background is a dark brown paper scroll."
@@ -99,7 +102,7 @@ include 'assets/templates/vars.php';
                         the prison and defeat the overlord... can you?
                         <br />
                         <br />
-                        We will be posting updates about JumpBound on our social media accounts, especially our <a href="https://twitter.com/digital_teal">Twitter</a>. It will be released around April-May 2021.
+                        We will be posting updates about JumpBound on our social media accounts, especially our <a href="https://twitter.com/digital_teal">Twitter</a>. It will be released by April 23rd, 2021.
                     </div>
                     <div class="col-sm-8 tabcontent" id="updates" style="display: none;">
                         <h2>Latest updates</h2>
