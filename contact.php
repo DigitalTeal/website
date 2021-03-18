@@ -21,6 +21,12 @@ include 'assets/templates/vars.php';
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#008080" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@digital_teal" />
+    <meta name="twitter:title" content="DigitalTeal - Home page" />
+    <meta name="twitter:description" content="<?php echo $digitalTealConfig["metaDescription"]; ?>" />
+    <meta name="twitter:image" content="https://digitalteal.com/assets/img/logo.png" />
+    <meta name="twitter:image:alt" content="The DIgitalTeal logo" />    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
