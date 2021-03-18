@@ -48,19 +48,12 @@ include 'assets/templates/vars.php';
         <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c;">
             <img src="https://digitalteal.com/assets/img/logo.png" class="w3-bar-item" style="height: 10%; width: 7%;" />
             <a href="#" class="w3-button w3-bar-item w3-black">About</a>
-            <a href="#jumpbound" onclick="window.location.href = 'https://digitalteal.com/#jumpbound'; location.reload()" ; class="w3-button w3-bar-item">JumpBound</a>
+            <a href="https://wiki.jumpbound.com/wiki/Main_Page" class="w3-button w3-bar-item">JumpBound</a>
             <a href="/team" class="w3-button w3-bar-item">Team</a>
             <a href="/subtoemail" class="w3-button w3-bar-item">Subscribe to email marketing</a>
             <a href="/contact" class="w3-button w3-bar-item">Contact</a>
         </nav>
-        <!-- Banner -->
-        <img
-            src="https://i.ibb.co/7bmKnqd/Digital-Teal-Banner.jpg"
-            alt="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background."
-            title="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background."
-            class="banner"
-            style="width: 100%; border: 1px solid #ffe41c;"
-        />
+
         <!-- Description -->
         <section id="description" class="w3-container w3-center w3-content" style="max-width: 600px; text-align: center;">
             <div class="container" style="margin-top: 30px; text-align: center;">
