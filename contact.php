@@ -43,7 +43,7 @@ include 'assets/templates/vars.php';
     <!-- Navigation -->
     <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c;">
       <a href="/" class="w3-button w3-bar-item">About</a>
-      <a href="/#jumpbound" class="w3-button w3-bar-item">JumpBound</a>
+      <a href="https://wiki.jumpbound.com/wiki/Main_Page" class="w3-button w3-bar-item">JumpBound</a>
       <a href="/team" class="w3-button w3-bar-item">Team</a>
       <a href="/subtoemail" class="w3-button w3-bar-item">Subscribe to email marketing</a>
       <a href="#" class="w3-button w3-bar-item w3-black">Contact</a>

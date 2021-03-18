@@ -9,7 +9,9 @@ include 'assets/templates/vars.php';
         <link rel="stylesheet" href="/w3css/3/w3.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
         <title>DigitalTeal - Home page</title>
-        <meta name="description" content="<?php echo $digitalTealConfig["metaDescription"] ?>"/>
+        <meta name="description" content="
+        <?php echo $digitalTealConfig["metaDescription"] ?>
+        "/>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@digital_teal" />
         <meta name="twitter:title" content="DigitalTeal - Home page" />
