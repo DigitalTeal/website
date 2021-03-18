@@ -33,9 +33,9 @@ include 'assets/templates/vars.php';
 
     <body>
         <!-- Navigation -->
-        <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c; border-bottom: none;">
+        <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c;">
             <img src="https://digitalteal.com/assets/img/logo.png" class="w3-bar-item" style="height: 10%; width: 7%;" />
-            <a href="#" class="w3-button w3-bar-item">About</a>
+            <a href="#" class="w3-button w3-bar-item w3-black">About</a>
             <a href="#jumpbound" onclick="window.location.href = 'https://digitalteal.com/#jumpbound'; location.reload()" ; class="w3-button w3-bar-item">JumpBound</a>
             <a href="/team" class="w3-button w3-bar-item">Team</a>
             <a href="/subtoemail" class="w3-button w3-bar-item">Subscribe to email marketing</a>

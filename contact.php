@@ -35,21 +35,14 @@ include 'assets/templates/vars.php';
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c; border-bottom: none;">
+    <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c;">
       <a href="/" class="w3-button w3-bar-item">About</a>
       <a href="/#jumpbound" class="w3-button w3-bar-item">JumpBound</a>
       <a href="/team" class="w3-button w3-bar-item">Team</a>
       <a href="/subtoemail" class="w3-button w3-bar-item">Subscribe to email marketing</a>
-      <a href="#" class="w3-button w3-bar-item">Contact</a>
+      <a href="#" class="w3-button w3-bar-item w3-black">Contact</a>
     </nav>
-    <!-- Banner -->
-    <img
-      src="https://www.linkpicture.com/q/2A627C0B-91EC-4C42-BB3E-98BE6A026422.png"
-      alt="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background."
-      title="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background."
-      class="banner"
-      style="width: 100%; border: 1px solid #ffe41c;"
-    />
+    
     <!-- Description -->
     <section id="description" class="w3-container w3-center w3-content" style="max-width: 600px;">
       <div class="container" style="margin-top: 30px;">
@@ -82,7 +75,7 @@ include 'assets/templates/vars.php';
           height=500'
         )
       )
-    " style="border: 3px solid #ddd; background-color: dodgerblue; border-radius: 5px; padding: 1%;">
+    " class="w3-button w3-blue">
               Contact DigitalTeal staff
             </a>
           </div>

@@ -33,29 +33,22 @@ include 'assets/templates/vars.php';
     <?php include("assets/templates/analyticsCode.html"); ?>
     <body>
         <!-- Navigation -->
-        <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c; border-bottom: none;">
+        <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c;">
             <img src="https://digitalteal.com/assets/img/logo.png" class="w3-bar-item" style="height: 10%; width: 7%;" />
             <a href="/" class="w3-button w3-bar-item">About</a>
             <a href="/#jumpbound" class="w3-button w3-bar-item">JumpBound</a>
             <a href="/team" class="w3-button w3-bar-item">Team</a>
-            <a href="/subtoemail" class="w3-button w3-bar-item">Subscribe to email marketing</a>
+            <a href="/subtoemail" class="w3-button w3-bar-item w3-black">Subscribe to email marketing</a>
             <a href="/contact" class="w3-button w3-bar-item">Contact</a>
         </nav>
-        <!-- Banner -->
-        <img
-            src="https://www.linkpicture.com/q/2A627C0B-91EC-4C42-BB3E-98BE6A026422.png"
-            alt="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background."
-            title="The DigitalTeal banner. Contains the brand name DigitalTeal on a purple background."
-            class="banner"
-            style="width: 100%; border: 1px solid #ffe41c;"
-        />
+
         <!-- Description -->
         <section id="description" class="w3-container w3-center w3-content" style="max-width: 600px;">
             <div class="container" style="margin-top: 30px;">
                 <div class="row">
-                    <h2>DigitalTeal - Subscribe to email marketing</h2>
+                    <h1>DigitalTeal - Subscribe to email marketing</h1>
                     <div class="col-sm-4">
-                        <h1><?php echo $digitalTealConfig["aboutHeader"]; ?></h1>
+                        <h2><?php echo $digitalTealConfig["aboutHeader"]; ?></h2>
                         <p><?php echo $digitalTealConfig["about"]; ?></p>
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item">
