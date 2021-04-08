@@ -45,7 +45,6 @@ include 'assets/templates/vars.php';
       <a href="/" class="w3-button w3-bar-item">About</a>
       <a href="https://wiki.jumpbound.com/wiki/Main_Page" class="w3-button w3-bar-item">JumpBound</a>
       <a href="#" class="w3-button w3-bar-item w3-black">Team</a>
-      <a href="/subtoemail" class="w3-button w3-bar-item">Subscribe to email marketing</a>
       <a href="/blog" class="w3-button w3-bar-item">Blog</a>
       <a href="/contact" class="w3-button w3-bar-item">Contact</a>
     </nav>
