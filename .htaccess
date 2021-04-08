@@ -1,15 +1,5 @@
-# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:digitalteal.com
-RewriteEngine on
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} (www\.)?digitalteal.com
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:digitalteal.com
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^.]+)$ $1.php [NC,L]
 
-ErrorDocument 500 /500.html
-ErrorDocument 404 /404.html
-ErrorDocument 403 /403.html
-ErrorDocument 401 /401.html
-ErrorDocument 400 /400.html
+ErrorDocument 404 /assets/templates/errorPages/404.html

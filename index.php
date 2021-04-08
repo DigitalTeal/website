@@ -46,9 +46,10 @@ include 'assets/templates/vars.php';
         <nav class="w3-bar w3-teal" style="border: 1px solid #ffe41c;">
             <img src="https://digitalteal.com/assets/img/logo.png" class="w3-bar-item" style="height: 10%; width: 7%;" />
             <a href="#" class="w3-button w3-bar-item w3-black">About</a>
-            <a href="https://wiki.jumpbound.com/wiki/Main_Page" class="w3-button w3-bar-item">JumpBound</a>
+            <a href="https://wiki.jumpbound.com/wiki/JumpBound_Wiki" class="w3-button w3-bar-item">JumpBound</a>
             <a href="/team" class="w3-button w3-bar-item">Team</a>
             <a href="/subtoemail" class="w3-button w3-bar-item">Subscribe to email marketing</a>
+            <a href="/blog" class="w3-button w3-bar-item">Blog</a>
             <a href="/contact" class="w3-button w3-bar-item">Contact</a>
         </nav>
 
