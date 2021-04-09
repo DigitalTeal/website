@@ -93,7 +93,7 @@ include 'assets/templates/vars.php';
             </div>
           </div>
 
-          <div class="tabcontent col-sm-8" id="coding" style="display: none;">
+          <div class="tabcontent col-sm-8" id="coding" style="display: none;">            
             <div class="card">
               <p>Connor Ahern</p>
               <p class="title">Product Manager</p>
@@ -111,24 +111,27 @@ include 'assets/templates/vars.php';
           </div>
 
           <div class="tabcontent col-sm-8" id="art" style="display: none;">
+              
+          <div class="card">
+              <p>Solo789</p>
+              <p class="title">Art Director, Concept Artist</p>
+              <div style="display: inline-block;">
+                <a href="https://twitter.com/Alyss_Solo789"><i class="fa fa-twitter"></i></a>
+                <a href="https://github.com/AlyssSolo789"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+
             <div class="card">
               <p>Tree</p>
               <p class="title">Pixel artist</p>
             </div>
 
             <div class="card">
-              <p>Magisukiyo</p>
+              <p>Emily Piza</p>
               <p class="title">Audio Producer</p>
             </div>
 
-            <div class="card">
-              <p>Solo789</p>
-              <p class="title">Concept Artist</p>
-              <div style="display: inline-block;">
-                <a href="https://twitter.com/Alyss_Solo789"><i class="fa fa-twitter"></i></a>
-                <a href="https://github.com/AlyssSolo789"><i class="fa fa-github"></i></a>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
