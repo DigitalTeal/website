@@ -111,7 +111,7 @@ include 'assets/templates/vars.php';
             
             <div class="card">
               <p>Benjamin Moser</p>
-              <p class="title">Programmer(or whatever I am)</p>
+              <p class="title">Programmer</p>
               <a href="https://github.com/bmoser05"><i class="fa fa-github"></i></a>
             </div>
             
