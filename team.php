@@ -108,6 +108,13 @@ include 'assets/templates/vars.php';
               <p class="title">Software Engineer</p>
               <a href="https://github.com/irhrhd"><i class="fa fa-github"></i></a>
             </div>
+            
+            <div class="card">
+              <p>Benjamin Moser</p>
+              <p class="title">Programmer(or whatever I am)</p>
+              <a href="https://github.com/bmoser05"><i class="fa fa-github"></i></a>
+            </div>
+            
           </div>
 
           <div class="tabcontent col-sm-8" id="art" style="display: none;">
